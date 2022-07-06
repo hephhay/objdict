@@ -1,7 +1,7 @@
 # OBJDICT
 An object wrapper for dict that allows for using object type notation with dictionaries.
 ## Installation
-pip3 -m install objdict
+pip install objdict-hephhay
 ## Description
 An object style implementation for dict that allows for using object type dot(.) notation with dictionaries.
 

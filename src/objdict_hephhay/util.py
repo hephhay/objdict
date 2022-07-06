@@ -27,7 +27,7 @@ class ObjDict(MutableMapping):
                 Holds the value for the 'depth' of the instance
     """
 
-    def __init__(self, dict : Mapping = None, obj__depth : int = inf, /,**kwargs):
+    def __init__(self, dict : Mapping = None, obj__depth : int = inf ,**kwargs):
 
         """initializes ObjDict.
 

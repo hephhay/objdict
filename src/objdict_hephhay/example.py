@@ -1,13 +1,12 @@
 from util import ObjDict
 
-list = ObjDict(ade = 'kola', fara = 'yola', da = {'n' : 'e', 'l' : '.'})
+list = ObjDict(obj__depth = 1, ade = 'kola', fara = 'yola', da = {'n' : 'e', 'l' : {'papa' : 'data'}})
 
 print(list)
-list.clear()
-list.papa = 5
-print(list)
+print(list.ade)
+print(list.da.l)
 
+for i in list:
+    print(list[i])
 
-dictionary_2 = {"foo" : 1, "bar" : 2, "baz" : {"alice" : 3, "bob" : {"steph" : 5}}}
-obj2 = ObjDict(dictionary_2, depth = 1)
-obj2
+print(tuple(list.keys()))

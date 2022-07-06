@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/objdict_hephhay/__init.__.py
+src/objdict_hephhay/example.py
+src/objdict_hephhay/util.py
+src/objdict_hephhay.egg-info/PKG-INFO
+src/objdict_hephhay.egg-info/SOURCES.txt
+src/objdict_hephhay.egg-info/dependency_links.txt
+src/objdict_hephhay.egg-info/top_level.txt

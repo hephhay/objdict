@@ -19,8 +19,8 @@ Parameters
 dict : int
     Dictionary to convert
 
-depth : int
-    Second number to add = 0 if you want only a single level of conversion
+obj__depth : int
+    depth of conversion to ObjDict
 
 Returns
 -------
@@ -36,7 +36,7 @@ Examples
     >>> obj1.foo
     1
     >>> dictionary_2 = {"foo" : 1, "bar" : 2, "baz" : {"alice" : 3, "bob" : {"steph" : 5}}}
-    >>> obj2 = ObjDict(dictionary_2, depth = 1)
+    >>> obj2 = ObjDict(dictionary_2, obj__depth = 1)
     >>> obj2.bar
     2
     >>> obj2.baz
